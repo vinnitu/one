@@ -7,6 +7,7 @@ RUN apt update && apt install -y --no-install-recommends \
         wget
 
 RUN apt install caffe-cpu -y
+RUN apt install opencv -y
 
 #    rm -rf /var/lib/apt/lists/*
 
