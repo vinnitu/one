@@ -10,6 +10,6 @@ RUN apt install caffe-cpu -y
 RUN apt install python3-opencv -y
 RUN apt install python3-pip -y
 RUN pip3 install dlib
+RUN apt install rabbitmq-server -y
 
-#    rm -rf /var/lib/apt/lists/*
-
+# RUN rm -rf /var/lib/apt/lists/*
